@@ -1,0 +1,159 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.zomato{
+    z-index: 1;
+
+}
+.maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-image: url('bakground.avif');
+    background-size: cover;
+}
+.zomatooo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.find{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    position: relative;
+    top: 117px;
+    left: -28px;
+}
+.nav{
+    position: absolute;
+    top: 0px;
+    right: 200px;
+}
+.nav .list{
+    gap: 10px;
+    display: flex;
+}
+.main-background{
+    width: 100%;
+    height: 90vh;
+}
+.zomatoLogo{
+    width: 300px;
+    position: absolute;
+    top: 308px;
+}
+
+.list{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.maindiv{
+    position: relative;
+}
+#tittle{
+    position: relative;
+    font-size: xxx-large;
+    font-weight: 100; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flag{
+    width: 50px;
+    margin: 0 10px;
+}
+#sub-tittle{
+    font-size: x-large;
+    font-weight: 100;
+    color: rgb(105, 105, 105);
+    position: relative;
+    text-align: center;
+    top: -22px;
+}
+.boxes{
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.box{
+    position: relative;
+    width: 323px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    left:73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box h2{
+    font-size: large;
+}
+.footer{
+   
+    background-color:hwb(180 83% 13% / 0.26)
+    
+
+}
+.footer-header{
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.india{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #444;
+    text-align: center;
+}
+.blog{
+width: 100px;
+}
+.links{
+    position: relative;
+    left: 100px;
+    top: -100px;
+    padding: 0px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.links li{
+    margin: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px ;
+}
+.links div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.social{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
